@@ -54,12 +54,12 @@ const Cities = () => {
     }
   }, [index, cities]);
 
-  // useEffect(() => {
-  //   let slider = setInterval(() => {
-  //     setIndex(index + 1);
-  //   }, 3000);
-  //   return () => clearInterval(slider);
-  // }, [index]);
+  useEffect(() => {
+    let slider = setInterval(() => {
+      setIndex(index + 1);
+    }, 3000);
+    return () => clearInterval(slider);
+  }, [index]);
 
   if (loading) {
     return <Loading />;

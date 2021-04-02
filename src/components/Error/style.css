@@ -1,0 +1,15 @@
+.error-page {
+  border: 0.12rem solid #231475;
+  margin: auto;
+  margin-top: 1rem;
+  width: 75vw;
+  max-width: 1000px;
+  text-align: center;
+  height: 45vh;
+  border: 0.2rem solid #231475;
+  border-radius: 0.5rem;
+}
+
+.error-page h1 {
+  padding-top: 4rem;
+}

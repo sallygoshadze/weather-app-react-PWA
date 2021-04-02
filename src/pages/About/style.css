@@ -1,0 +1,20 @@
+.about {
+  text-align: center;
+  margin: 2.5rem auto;
+}
+
+.about h1 {
+  letter-spacing: 0.5rem;
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+.about p,
+a {
+  letter-spacing: 0.15rem;
+}
+
+.about a {
+  text-decoration: none;
+  color: black;
+}

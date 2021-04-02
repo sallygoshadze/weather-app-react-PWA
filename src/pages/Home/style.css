@@ -1,0 +1,7 @@
+.home h1 {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.2rem;
+  text-transform: capitalize;
+}
